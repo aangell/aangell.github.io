@@ -1,0 +1,157 @@
+:root {
+  --bg: #f3efe6;
+  --ink: #1c1915;
+  --muted: #5e564c;
+  --line: #ddd4c6;
+  --accent: #8a3d2f;
+  --card: #fffdf8;
+  --chip: #efe7d8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.site-header,
+main,
+footer {
+  width: min(40rem, calc(100% - 2.5rem));
+  margin-inline: auto;
+}
+
+.site-header {
+  padding-top: 3.25rem;
+}
+
+.banner {
+  display: inline-block;
+  margin: 0 0 1.25rem;
+  padding: 0.2rem 0.7rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  font-size: clamp(2.6rem, 8vw, 3.6rem);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.02;
+}
+
+.lede {
+  margin: 0.85rem 0 0;
+  color: var(--muted);
+  font-size: 1.15rem;
+}
+
+main {
+  padding-bottom: 1rem;
+}
+
+section {
+  margin-top: 2rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid var(--line);
+}
+
+h2 {
+  margin: 0 0 0.85rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 0.35rem 0 0.15rem;
+  font-size: 1.2rem;
+  font-weight: 650;
+}
+
+p {
+  margin: 0.55rem 0 0;
+}
+
+.section-note,
+.meta {
+  color: var(--muted);
+}
+
+.tag {
+  display: inline-block;
+  margin-right: 0.35rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 0.3rem;
+  background: #f3ddd6;
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: 0.1em;
+}
+
+.card {
+  margin-top: 0.9rem;
+  padding: 1rem 1.05rem 1.1rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills li {
+  padding: 0.4rem 0.75rem;
+  background: var(--chip);
+  border-radius: 999px;
+  font-size: 0.95rem;
+}
+
+.contact-line a {
+  color: var(--accent);
+}
+
+footer {
+  padding: 0.5rem 0 3rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 40rem) {
+  .site-header {
+    padding-top: 2rem;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+}
