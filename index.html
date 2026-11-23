@@ -4,36 +4,153 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Adam Angell — Senior Software Engineer</title>
-  <meta name="description" content="Adam Angell is a senior software engineer with over 9 years’ experience building web applications, ecommerce platforms, and Shopify apps.">
+  <meta name="description" content="Portfolio of Adam Angell, a senior software engineer with over 9 years’ experience building web applications, ecommerce platforms, and Shopify apps.">
+  <meta name="theme-color" content="#f4efe6">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%23f4efe6' width='32' height='32' rx='6'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23b8431f' stroke-width='2' stroke-dasharray='36 20'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,620;1,9..144,500;1,9..144,560&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip" href="#content">Skip to content</a>
 
   <header class="site-header">
-    <p class="eyebrow">Senior Software Engineer</p>
-    <h1>Adam Angell</h1>
-    <p class="lede">Senior Software Engineer with over 9 years’ experience building and scaling web applications and ecommerce platforms. Specialising in Laravel, PHP, and Shopify app development (merchant admin and Point of Sale), with a strong focus on performance, shared architecture, CI/CD, and mentoring. Built a deep technical foundation before the rise of AI tools, which now enables me to direct models precisely, critically evaluate their output, and integrate them effectively to increase productivity while maintaining high code quality.</p>
-    <ul class="links">
-      <li><a href="https://github.com/aangell">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/adam-angell-0412bb52/">LinkedIn</a></li>
-    </ul>
-    <nav class="section-nav" aria-label="On this page">
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
-    </nav>
+    <div class="wrap bar">
+      <a class="brand" href="#top">Adam Angell</a>
+      <nav aria-label="On this page">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+      </nav>
+      <ul class="bar-links">
+        <li><a href="https://github.com/aangell" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in a new tab)</span></a></li>
+        <li><a href="https://www.linkedin.com/in/adam-angell-0412bb52/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li>
+      </ul>
+    </div>
   </header>
 
   <main id="content">
-    <section id="skills" aria-labelledby="skills-heading">
-      <h2 id="skills-heading">Skills</h2>
-      <dl class="skill-groups">
-        <div>
-          <dt>Languages &amp; Frameworks</dt>
-          <dd>
-            <ul class="chips">
+    <section class="hero" id="top" aria-label="Introduction">
+      <div class="wrap hero-grid">
+        <div class="hero-main">
+          <p class="kicker"><span class="ring" aria-hidden="true"></span>Senior software engineer</p>
+          <h1>Adam<br><em>Angell</em></h1>
+        </div>
+        <div class="hero-note">
+          <p class="lede">Over nine years’ experience building and scaling web applications and ecommerce platforms.</p>
+          <p>Specialising in Laravel, PHP, and Shopify app development for the merchant admin and point of sale, with a strong focus on performance, shared architecture, CI/CD, and mentoring.</p>
+          <p class="quiet">Built a deep technical foundation before the rise of AI tools, which now enables me to direct models precisely, critically evaluate their output, and integrate them effectively to increase productivity while maintaining high code quality.</p>
+          <ul class="hero-links">
+            <li><a href="https://github.com/aangell" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in a new tab)</span></a></li>
+            <li><a href="https://www.linkedin.com/in/adam-angell-0412bb52/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="wrap">
+        <dl class="facts">
+          <div>
+            <dt>Experience</dt>
+            <dd>Over 9 years</dd>
+          </div>
+          <div>
+            <dt>Platforms</dt>
+            <dd>Laravel, PHP, Shopify</dd>
+          </div>
+          <div>
+            <dt>Surfaces</dt>
+            <dd>Merchant admin and POS</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="work" class="band" aria-labelledby="work-heading">
+      <div class="wrap work-controls">
+        <header class="section-head">
+          <div>
+            <h2 id="work-heading"><span class="ring" aria-hidden="true"></span>Selected work</h2>
+            <p class="section-lead">Shopify apps from 2024–2026, and earlier projects.</p>
+          </div>
+          <div class="filter-ui" role="radiogroup" aria-label="Filter projects">
+            <input class="sr-only" type="radio" name="work-set" id="set-all" checked>
+            <label for="set-all">All work</label>
+            <input class="sr-only" type="radio" name="work-set" id="set-shopify">
+            <label for="set-shopify">Shopify apps</label>
+            <input class="sr-only" type="radio" name="work-set" id="set-earlier">
+            <label for="set-earlier">Earlier</label>
+          </div>
+        </header>
+
+        <div class="work-grid">
+          <article class="project feature is-shopify c8">
+            <div class="mark" aria-hidden="true"></div>
+            <p class="plate"><span aria-hidden="true">01</span> Shopify app · 2024–2026</p>
+            <h3>Wysh —<br>Wishlist &amp; POS</h3>
+            <p>Unified wishlist experience that drives sales both online and in-store.</p>
+          </article>
+          <article class="project is-shopify c4">
+            <p class="plate"><span aria-hidden="true">02</span> Shopify app · 2024–2026</p>
+            <h3>Blueprint Product Configurator</h3>
+            <p>Configure complex products across the online store and POS.</p>
+          </article>
+          <article class="project is-shopify c4">
+            <p class="plate"><span aria-hidden="true">03</span> Shopify app · 2024–2026</p>
+            <h3>Impulse — Unified Upsells</h3>
+            <p>Smart upsells and insights that work online and in retail stores.</p>
+          </article>
+          <article class="project is-shopify c4">
+            <p class="plate"><span aria-hidden="true">04</span> Shopify app · 2024–2026</p>
+            <h3>QuiQR Codes</h3>
+            <p>Dynamic QR code campaigns with AI-generated images and revenue reporting.</p>
+          </article>
+          <article class="project is-shopify c4">
+            <p class="plate"><span aria-hidden="true">05</span> Shopify app · 2024–2026</p>
+            <h3>SmartAlt — AI SEO Alt Text</h3>
+            <p>AI-powered alt text generation for image SEO and accessibility (ADA/WCAG).</p>
+          </article>
+          <article class="project is-shopify c4">
+            <p class="plate"><span aria-hidden="true">06</span> Shopify app · 2024–2026</p>
+            <h3>Broadcast — Digital Signage</h3>
+            <p>Manage retail displays and automate media based on inventory.</p>
+          </article>
+          <article class="project is-shopify c4">
+            <p class="plate"><span aria-hidden="true">07</span> Shopify app · 2024–2026</p>
+            <h3>Zonal — Shipping Rates &amp; Rules</h3>
+            <p>Advanced shipping rate control and delivery date selection.</p>
+          </article>
+          <article class="project is-shopify c4">
+            <p class="plate"><span aria-hidden="true">08</span> Shopify app · 2024–2026</p>
+            <h3>Cookease: Cookie Consent Mode</h3>
+            <p>Google Consent Mode v2 and GDPR-compliant cookie management.</p>
+          </article>
+          <article class="project is-earlier c6">
+            <p class="plate"><span aria-hidden="true">09</span> Earlier project · 2018</p>
+            <h3>Psychology Web Service</h3>
+            <p>Built a new Laravel application from scratch, including dedicated server setup. The system delivered training videos based on user-created psychological profiles.</p>
+          </article>
+          <article class="project is-earlier c6">
+            <p class="plate"><span aria-hidden="true">10</span> Earlier project · 2016–2019</p>
+            <h3>Multi-Platform Ecommerce / CRM</h3>
+            <p>Developed a custom PHP solution for a car-parts business selling across multiple sites and platforms, managing stock, orders, accounts, and customers in one system.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-band" aria-labelledby="skills-heading">
+      <div class="wrap">
+        <header class="section-head">
+          <div>
+            <h2 id="skills-heading"><span class="ring" aria-hidden="true"></span>Skills</h2>
+            <p class="section-lead">Languages, platforms, and practices behind the work.</p>
+          </div>
+        </header>
+        <div class="skill-grid">
+          <div>
+            <h3>Languages &amp; Frameworks</h3>
+            <ul>
               <li>PHP</li>
               <li>Laravel</li>
               <li>JavaScript</li>
@@ -42,12 +159,10 @@
               <li>CSS3</li>
               <li>MySQL</li>
             </ul>
-          </dd>
-        </div>
-        <div>
-          <dt>Platforms &amp; Tools</dt>
-          <dd>
-            <ul class="chips">
+          </div>
+          <div>
+            <h3>Platforms &amp; Tools</h3>
+            <ul>
               <li>Shopify (Apps, Polaris, POS)</li>
               <li>Docker</li>
               <li>Git</li>
@@ -57,23 +172,19 @@
               <li>Confluence</li>
               <li>Postman</li>
             </ul>
-          </dd>
-        </div>
-        <div>
-          <dt>AI Tools</dt>
-          <dd>
-            <ul class="chips">
+          </div>
+          <div>
+            <h3>AI Tools</h3>
+            <ul>
               <li>Claude Code</li>
               <li>xAI / Grok</li>
               <li>AI coding agents</li>
               <li>Automated code generation workflows</li>
             </ul>
-          </dd>
-        </div>
-        <div>
-          <dt>Practices</dt>
-          <dd>
-            <ul class="chips">
+          </div>
+          <div>
+            <h3>Practices</h3>
+            <ul>
               <li>MVC</li>
               <li>Agile</li>
               <li>Unit/Feature Testing</li>
@@ -84,117 +195,67 @@
               <li>SSL</li>
               <li>UX</li>
             </ul>
-          </dd>
-        </div>
-        <div>
-          <dt>Other</dt>
-          <dd>
-            <ul class="chips">
+          </div>
+          <div>
+            <h3>Other</h3>
+            <ul>
               <li>Shared package development</li>
               <li>Data migrations</li>
               <li>Performance optimisation</li>
               <li>Mentoring</li>
             </ul>
-          </dd>
+          </div>
         </div>
-      </dl>
+      </div>
     </section>
 
-    <section id="experience" aria-labelledby="experience-heading">
-      <h2 id="experience-heading">Experience</h2>
-
-      <article class="role">
-        <h3>Senior Software Engineer</h3>
-        <p class="meta">January 2019 – Present</p>
-        <p class="meta">Promoted to Senior Software Engineer, July 2024</p>
-        <p>Contributing to the development, maintenance, and optimisation of a core ecommerce platform and a suite of new products. The core platform is a large-scale bespoke system built on a Kohana MVC framework; more recently I have worked on multiple Laravel-based API services with Vue front ends.</p>
-        <h4>Key responsibilities and achievements</h4>
-        <ul>
-          <li>Promoted to Senior Software Engineer in July 2024. Design, develop, and maintain several Shopify applications and services that run across both the Shopify merchant admin and the in-store Point of Sale (POS) systems.</li>
-          <li>Built the applications with a Laravel backend and Shopify Polaris UI components, creating a consistent experience for merchants while delivering POS-specific features where required.</li>
-          <li>Designed and maintained multiple shared internal packages used across the Shopify apps, improving consistency, reducing duplication, and accelerating delivery.</li>
-          <li>Architected solutions with a strong focus on performance and scalability to support high-volume retail environments.</li>
-          <li>Implemented and improved CI/CD pipelines with automated quality gates at multiple stages (linting, testing, security, deployment).</li>
-          <li>Developed an automated code-generation workflow using AI cloud agents and GitHub Actions to resolve bugs, minor enhancements, and some larger feature requests.</li>
-          <li>Ongoing responsibilities include feature development, third-party integrations, code reviews, unit/feature testing, data migrations, technical scoping, mentoring, and Agile ceremonies.</li>
-        </ul>
-      </article>
-
-      <article class="role">
-        <h3>Head of Software Development / Software Developer</h3>
-        <p class="meta">September 2016 – January 2019</p>
-        <p>Progressed from Software Developer to Head of Software Development. Developed and maintained client systems (PHP, C++, ecommerce, CRM, data management) and websites. Took leadership of the development team, mentored junior staff, acted as primary client contact, and handled project scoping, SSL/DNS management, and server migrations.</p>
-      </article>
+    <section id="experience" class="band" aria-labelledby="experience-heading">
+      <div class="wrap">
+        <header class="section-head">
+          <div>
+            <h2 id="experience-heading"><span class="ring" aria-hidden="true"></span>Experience</h2>
+            <p class="section-lead">The roles behind the work.</p>
+          </div>
+        </header>
+        <div class="roles">
+          <article>
+            <p class="when">January 2019 – Present</p>
+            <h3>Senior Software Engineer</h3>
+            <p class="promo">Promoted to Senior Software Engineer, July 2024</p>
+            <p>Contributing to the development, maintenance, and optimisation of a core ecommerce platform and a suite of new products. The core platform is a large-scale bespoke system built on a Kohana MVC framework; more recently I have worked on multiple Laravel-based API services with Vue front ends.</p>
+            <p>Shopify applications and services run across the merchant admin and in-store point of sale, with a Laravel backend and Shopify Polaris — a consistent experience for merchants, and POS-specific features where required. Shared internal packages improve consistency, reduce duplication, and accelerate delivery. Solutions are architected for performance and scalability in high-volume retail environments.</p>
+            <p>CI/CD pipelines carry automated quality gates for linting, testing, security, and deployment. An automated code-generation workflow uses AI cloud agents and GitHub Actions to resolve bugs, minor enhancements, and some larger feature requests. Ongoing work includes feature development, third-party integrations, code reviews, unit and feature testing, data migrations, technical scoping, mentoring, and Agile ceremonies.</p>
+          </article>
+          <article>
+            <p class="when">September 2016 – January 2019</p>
+            <h3>Head of Software Development / Software Developer</h3>
+            <p>Progressed from Software Developer to Head of Software Development. Developed and maintained client systems (PHP, C++, ecommerce, CRM, data management) and websites. Took leadership of the development team, mentored junior staff, acted as primary client contact, and handled project scoping, SSL/DNS management, and server migrations.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section id="projects" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Projects</h2>
-
-      <h3 class="group-title">Recent Shopify Apps (2024–2026)</h3>
-      <ul class="projects">
-        <li>
-          <span class="project-name">Wysh — Wishlist &amp; POS</span>
-          Unified wishlist experience that drives sales both online and in-store.
-        </li>
-        <li>
-          <span class="project-name">Blueprint Product Configurator</span>
-          Configure complex products across the online store and POS.
-        </li>
-        <li>
-          <span class="project-name">Impulse — Unified Upsells</span>
-          Smart upsells and insights that work online and in retail stores.
-        </li>
-        <li>
-          <span class="project-name">QuiQR Codes</span>
-          Dynamic QR code campaigns with AI-generated images and revenue reporting.
-        </li>
-        <li>
-          <span class="project-name">SmartAlt — AI SEO Alt Text</span>
-          AI-powered alt text generation for image SEO and accessibility (ADA/WCAG).
-        </li>
-        <li>
-          <span class="project-name">Broadcast — Digital Signage</span>
-          Manage retail displays and automate media based on inventory.
-        </li>
-        <li>
-          <span class="project-name">Zonal — Shipping Rates &amp; Rules</span>
-          Advanced shipping rate control and delivery date selection.
-        </li>
-        <li>
-          <span class="project-name">Cookease: Cookie Consent Mode</span>
-          Google Consent Mode v2 and GDPR-compliant cookie management.
-        </li>
-      </ul>
-
-      <h3 class="group-title">Earlier Projects</h3>
-      <ul class="projects">
-        <li>
-          <span class="project-name">Psychology Web Service (2018)</span>
-          Built a new Laravel application from scratch, including dedicated server setup. The system delivered training videos based on user-created psychological profiles.
-        </li>
-        <li>
-          <span class="project-name">Multi-Platform Ecommerce / CRM (2016–2019)</span>
-          Developed a custom PHP solution for a car-parts business selling across multiple sites and platforms, managing stock, orders, accounts, and customers in one system.
-        </li>
-      </ul>
-    </section>
-
-    <section id="education" aria-labelledby="education-heading">
-      <h2 id="education-heading">Education</h2>
-      <article class="role">
+    <section id="education" class="wrap education" aria-labelledby="education-heading">
+      <h2 id="education-heading"><span class="ring" aria-hidden="true"></span>Education</h2>
+      <article>
         <h3>BA (Hons) Web &amp; Multimedia (2:1)</h3>
-        <p class="meta">Teesside University</p>
-        <p class="meta">September 2013 – July 2016</p>
+        <p>Teesside University</p>
+        <p class="when">September 2013 – July 2016</p>
       </article>
     </section>
   </main>
 
   <footer>
-    <p>Adam Angell</p>
-    <ul class="links">
-      <li><a href="https://github.com/aangell">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/adam-angell-0412bb52/">LinkedIn</a></li>
-    </ul>
+    <div class="wrap foot">
+      <div>
+        <p class="foot-name">Adam Angell</p>
+        <p class="foot-role">Senior software engineer</p>
+      </div>
+      <ul class="bar-links">
+        <li><a href="https://github.com/aangell" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in a new tab)</span></a></li>
+        <li><a href="https://www.linkedin.com/in/adam-angell-0412bb52/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li>
+      </ul>
+    </div>
   </footer>
 </body>
 </html>
