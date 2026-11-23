@@ -1,5 +1,5 @@
 # Adam Angell
 
-Placeholder personal portfolio and CV. GitHub Pages serves this repository from the default branch.
+Personal portfolio for Adam Angell. GitHub Pages serves this repository from the default branch at [aangell.github.io](https://aangell.github.io/).
 
-The copy in `index.html` is stand-in text. Replace it before treating the page as a finished site. No job history, email, or phone number is included.
+The site is static HTML and CSS. It lists skills, roles, projects, and education.
